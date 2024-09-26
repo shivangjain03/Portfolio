@@ -4,9 +4,9 @@ const ProjectInfo = [
         desc:'I developed a responsive and interactive personal portfolio website using React for a modular, component-based architecture, and Tailwind CSS for streamlined, responsive styling. The site structure was built with HTML and CSS, while JavaScript was utilized to enhance interactivity and functionality. The portfolio is designed to showcase my projects, skills, and experience in a professional and user-friendly manner, with a focus on performance optimization and accessibility.',
         image: "Portfolio.png",
         live: true,
-        technologies: ["React", "Tailwind", "CSS", "HTML", "JS"],
+        technologies: ["React", "Tailwind", "CSS", "HTML", "JS", "TypeScript"],
         link: "",
-        github: ""
+        github: "https://github.com/shivangjain03/Portfolio"
     },
     {
         title: "Vaccum Cleaner",
@@ -14,8 +14,8 @@ const ProjectInfo = [
         image: "vaccum1.png",
         live: false,
         technologies: ["Python", "Pygame", "Tkinter"],
-        link: "",
-        github: ""
+        link: "https://github.com/shivangjain03/Vaccum-Cleaner",
+        github: "https://github.com/shivangjain03/Vaccum-Cleaner"
     },
     {
         title: "Stock Management System",
@@ -23,8 +23,8 @@ const ProjectInfo = [
         image: "Stock.png",
         live: false,
         technologies: ["Python", "MySQL"],
-        link: "https://github.com/Code-Mars/Spotify-Clone",
-        github: "https://github.com/Code-Mars/Spotify-Clone"
+        link: "https://github.com/shivangjain03/Stock-Management-System",
+        github: "https://github.com/shivangjain03/Stock-Management-System"
     }
 ]
 
