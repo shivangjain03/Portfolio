@@ -5,7 +5,7 @@ const ProjectInfo = [
         image: "Portfolio.png",
         live: true,
         technologies: ["React", "Tailwind", "CSS", "HTML", "JS", "TypeScript"],
-        link: "",
+        link: "https://shivangjain.vercel.app",
         github: ""
     },
     {
