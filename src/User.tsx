@@ -6,7 +6,7 @@ const ProjectInfo = [
         live: true,
         technologies: ["React", "Tailwind", "CSS", "HTML", "JS", "TypeScript"],
         link: "",
-        github: "https://github.com/shivangjain03/Portfolio"
+        github: ""
     },
     {
         title: "Vaccum Cleaner",
