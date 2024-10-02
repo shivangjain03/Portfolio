@@ -60,7 +60,7 @@ const ExperienceInfo = [
         skills: ["C++", "C", "Python", "Computational Mathematics"]
     },
     {
-        role: "Web Developer",
+        role: "Full Stack Developer",
         company: "CJSF 90.1FM",
         date: "May 2023 - Present",
         desc: "I spearheaded the migration of the organization's website from Drupal 7 to Drupal 8, leveraging my expertise in PHP, HTML5, CSS3, JavaScript and Drupal to ensure a seamless and efficient transition.",
