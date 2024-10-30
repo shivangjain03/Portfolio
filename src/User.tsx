@@ -1,13 +1,23 @@
 const ProjectInfo = [
     {
-        title: "Personal Portfolio Website",
+        title: "EasyShare",
+        desc:'EasyShare is a cloud-based file sharing system designed to facilitate seamless and secure file sharing over the internet. This project leverages modern web technologies to provide users with a robust platform for hosting, storing, and backing up data, ensuring high accessibility and performance. The system is built to address the challenges of conventional file sharing methods by offering a more controlled and efficient solution.',
+        image: "easyshare_photo1.png",
+        live: false,
+        technologies: ["Tailwind", "React", "CSS", "HTML", "JS", "TypeScript", "Clerk", "Firebase"],
+        link: "https://github.com/shivangjain03/easyshare",
+        github: "https://github.com/shivangjain03/easyshare"
+    },
+    {
+        title: "Personal Portfolio ",
         desc:'I developed a responsive and interactive personal portfolio website using React for a modular, component-based architecture, and Tailwind CSS for streamlined, responsive styling. The site structure was built with HTML and CSS, while JavaScript was utilized to enhance interactivity and functionality. The portfolio is designed to showcase my projects, skills, and experience in a professional and user-friendly manner, with a focus on performance optimization and accessibility.',
         image: "Portfolio.png",
         live: true,
-        technologies: ["React", "Tailwind", "CSS", "HTML", "JS", "TypeScript"],
-        link: "https://shivangjain.vercel.app",
+        technologies: ["React", "Tailwind", "CSS", "HTML", "JS", "TypeScript", "Firebase"],
+        link: "",
         github: ""
     },
+    
     {
         title: "Vaccum Cleaner",
         desc:"In this project, I implemented several search algorithms for a cleaning robot navigating a grid-based environment. The robot's task was to clean dirty cells while avoiding walls, using uninformed (DFS, BFS, UCS) and informed (Greedy, A*) search algorithms. I also implemented a reflex agent for random movement. The GUI displayed the robot's path and explored cells, with counters tracking steps and explored nodes. I incorporated cost functions, such as turn costs and grid preferences, along with heuristic options like Manhattan and Euclidean distance, to optimize the robots pathfinding efficiency.",
@@ -60,7 +70,7 @@ const ExperienceInfo = [
         skills: ["C++", "C", "Python", "Computational Mathematics"]
     },
     {
-        role: "Full Stack Developer",
+        role: "Web Developer",
         company: "CJSF 90.1FM",
         date: "May 2023 - Present",
         desc: "I spearheaded the migration of the organization's website from Drupal 7 to Drupal 8, leveraging my expertise in PHP, HTML5, CSS3, JavaScript and Drupal to ensure a seamless and efficient transition.",
