@@ -14,9 +14,9 @@ const ProjectInfo = [
         title: "EasyShare",
         desc:'EasyShare is a cloud-based file sharing system designed to facilitate seamless and secure file sharing over the internet. This project leverages modern web technologies to provide users with a robust platform for hosting, storing, and backing up data, ensuring high accessibility and performance. The system is built to address the challenges of conventional file sharing methods by offering a more controlled and efficient solution.',
         image: "easyshare_photo1.png",
-        live: false,
+        live: true,
         technologies: ["Tailwind", "React", "CSS", "HTML", "JS", "TypeScript", "Clerk", "Firebase"],
-        link: "https://github.com/shivangjain03/easyshare",
+        link: "https://easyshare-jade.vercel.app",
         github: "https://github.com/shivangjain03/easyshare"
     },
     {
