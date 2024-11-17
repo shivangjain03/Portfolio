@@ -1,5 +1,16 @@
 const ProjectInfo = [
     {
+        title: "SyncCode",
+        desc:'SyncCode is a real-time collaborative code editor designed to enable seamless and efficient coding sessions among multiple users. Leveraging modern web technologies, this platform ensures instant updates and minimal latency, providing a robust environment for collaborative coding. The system is engineered with a scalable backend architecture, supporting up to 7 concurrent users per session while maintaining optimized performance. Key features include syntax highlighting, error checking, and version control. SyncCode addresses the challenges of conventional code editors by offering a more interactive and responsive solution for developers.',
+        image: "sync-code.png",
+        live: true,
+        technologies: ["JavaScript", "CSS", "Socket.IO", "HTML"],
+        link: "https://synccode-1-2sm8.onrender.com",
+        github: "https://github.com/shivangjain03/SyncCode"
+    },
+
+
+    {
         title: "EasyShare",
         desc:'EasyShare is a cloud-based file sharing system designed to facilitate seamless and secure file sharing over the internet. This project leverages modern web technologies to provide users with a robust platform for hosting, storing, and backing up data, ensuring high accessibility and performance. The system is built to address the challenges of conventional file sharing methods by offering a more controlled and efficient solution.',
         image: "easyshare_photo1.png",
@@ -16,6 +27,15 @@ const ProjectInfo = [
         technologies: ["React", "Tailwind", "CSS", "HTML", "JS", "TypeScript", "Firebase"],
         link: "",
         github: ""
+    },
+    {
+        title: "Tic-tac-toe",
+        desc:"In this project, I implemented several adversarial search algorithms for an extended n x n TicTacToe game. The task involved developing MinMax, MinMax with AlphaBeta Pruning, and MonteCarlo Tree Search (MCTS) algorithms. The game includes a timer setting to limit the depth of search for MinMax and AlphaBeta algorithms, requiring the implementation of depth-cutoff versions. I also designed a smart evaluation function to assess board configurations, enhancing the AI's decision-making process. The goal was to ensure the AI never loses, achieving a solved game state. Additionally, I analyzed why the AI might exceed the set time limit and proposed solutions to ensure the runtime respects the time limit.",
+        image: "tic-tac-toe.png",
+        live: false,
+        technologies: ["Python", "NumPy", "Tkinter"],
+        link: "https://github.com/shivangjain03/tic-tac-toe",
+        github: "https://github.com/shivangjain03/tic-tac-toe"
     },
     
     {
