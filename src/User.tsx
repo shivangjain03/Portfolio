@@ -83,16 +83,23 @@ const SkillInfo = [
 
 const ExperienceInfo = [
     {
+        role: "Research Assistant",
+        company: "Simon Fraser University",
+        date: "December 2024 - Present",
+        desc: "Implemented and reviewed open-source human and object-tracking tools to develop and optimize pose-tracking systems using Unity and Mediapipe, ensuring seamless integration of AR and motion-tracking technologies.",
+        skills: ["Python", "Unity", "Mediapipe"]
+    },
+    {
         role: "CS Peer Tutor",
         company: "Simon Fraser University",
-        date: "September 2024 - Present",
+        date: "September 2024 - December 2024",
         desc: "As a Computer Science Peer Tutor, I provided personalized guidance and support to fellow students, utilizing my knowledge of programming languages, algorithms, and data structures to foster a collaborative learning environment and enhance their understanding of complex concepts.",
         skills: ["C++", "C", "Python", "Computational Mathematics"]
     },
     {
         role: "Web Developer",
         company: "CJSF 90.1FM",
-        date: "April 2023 - November 2024",
+        date: "May 2024 - September 2024",
         desc: "I spearheaded the migration of the organization's website from Drupal 7 to Drupal 8, leveraging my expertise in PHP, HTML5, CSS3, JavaScript and Drupal to ensure a seamless and efficient transition.",
         skills: ["HTML", "CSS", "React", "JavaScript", "Drupal", "Docker", "TypeSript"]
     }
