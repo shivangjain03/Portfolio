@@ -98,7 +98,7 @@ const About = () => {
         <Button
           component="a"
           target="_blank"
-          href="https://drive.google.com/file/d/1L2OcxnlqmkqYjAnZKe546lj14tv226Ra/view?usp=sharing"
+          href="https://drive.google.com/file/d/120XOU6Wnu8wfeV3dftjvPTPhaUGXH8lA/view?usp=sharing"
           className="!text-bgColor !w-fit"
           size={btn}
           variant="filled"

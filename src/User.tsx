@@ -1,5 +1,24 @@
 const ProjectInfo = [
     {
+        title: "Chaos Learn",
+        desc:"Chaos Learn automatically generates a lesson plan based on your study topic and curates a mix of: Educational videos 📖 – Structured lessons tailored to your topic. Fun videos – Interleaved for better engagement, based on a fun theme you pick! Quizzes – Automatically generated quizzes based on the content of the videos you’ve watched. Core Features Smart Video Curation – Uses GPT-4o and YouTube search to fetch relevant lessons. Easy Navigation – Click to play videos in a seamless playlist. Fun Mode – Adjust the fun video frequency (e.g., every 3rd video). Quiz Mode – Auto-generated quizzes to reinforce key takeaways.",
+        image: "chaos-learn.png",
+        live: true,
+        technologies: ["Python", "Flask", "React","OpenAI API", "Rag"],
+        link: "https://devpost.com/software/chaoslearn",
+        github: "https://github.com/teddymalhan/chaoslearn"
+    },
+
+    {
+        title: "Smile Please",
+        desc:"Smile Please is an AI-powered Web3 platform that rewards users with small cryptocurrency payments when they smile. Using facial recognition and sentiment analysis, the system detects and verifies genuine smiles, then triggers a micro-payment in crypto. The goal is to encourage positivity and well-being while showcasing the potential of AI and blockchain in a fun and engaging way.",
+        image: "gallery.jpg",
+        live: true,
+        technologies: ["Next.js", "Ethers.js", "Web3"],
+        link: "https://smile-please-pi.vercel.app",
+        github: "https://github.com/shivangjain03/Smile_Please"
+    },
+    {
         title: "SyncCode",
         desc:'SyncCode is a real-time collaborative code editor designed to enable seamless and efficient coding sessions among multiple users. Leveraging modern web technologies, this platform ensures instant updates and minimal latency, providing a robust environment for collaborative coding. The system is engineered with a scalable backend architecture, supporting up to 7 concurrent users per session while maintaining optimized performance. Key features include syntax highlighting, error checking, and version control. SyncCode addresses the challenges of conventional code editors by offering a more interactive and responsive solution for developers.',
         image: "sync-code.png",
@@ -28,34 +47,9 @@ const ProjectInfo = [
         link: "",
         github: ""
     },
-    {
-        title: "Tic-tac-toe",
-        desc:"In this project, I implemented several adversarial search algorithms for an extended n x n TicTacToe game. The task involved developing MinMax, MinMax with AlphaBeta Pruning, and MonteCarlo Tree Search (MCTS) algorithms. The game includes a timer setting to limit the depth of search for MinMax and AlphaBeta algorithms, requiring the implementation of depth-cutoff versions. I also designed a smart evaluation function to assess board configurations, enhancing the AI's decision-making process. The goal was to ensure the AI never loses, achieving a solved game state. Additionally, I analyzed why the AI might exceed the set time limit and proposed solutions to ensure the runtime respects the time limit.",
-        image: "tic-tac-toe.png",
-        live: false,
-        technologies: ["Python", "NumPy", "Tkinter"],
-        link: "https://github.com/shivangjain03/tic-tac-toe",
-        github: "https://github.com/shivangjain03/tic-tac-toe"
-    },
     
-    {
-        title: "Vaccum Cleaner",
-        desc:"In this project, I implemented several search algorithms for a cleaning robot navigating a grid-based environment. The robot's task was to clean dirty cells while avoiding walls, using uninformed (DFS, BFS, UCS) and informed (Greedy, A*) search algorithms. I also implemented a reflex agent for random movement. The GUI displayed the robot's path and explored cells, with counters tracking steps and explored nodes. I incorporated cost functions, such as turn costs and grid preferences, along with heuristic options like Manhattan and Euclidean distance, to optimize the robots pathfinding efficiency.",
-        image: "vaccum1.png",
-        live: false,
-        technologies: ["Python", "Pygame", "Tkinter"],
-        link: "https://github.com/shivangjain03/Vaccum-Cleaner",
-        github: "https://github.com/shivangjain03/Vaccum-Cleaner"
-    },
-    {
-        title: "Stock Management System",
-        desc: "I designed and implemented a stock management application using Python and SQL, allowing for efficient inventory management. Python was used to integrate dynamic functionalities with the SQL database, enabling seamless CRUD operations (Create, Read, Update, Delete) for stock items. The application features a user-friendly interface for efficient data manipulation and inventory tracking, ensuring smooth management of stock levels and transactions.",
-        image: "Stock.png",
-        live: false,
-        technologies: ["Python", "MySQL"],
-        link: "https://github.com/shivangjain03/Stock-Management-System",
-        github: "https://github.com/shivangjain03/Stock-Management-System"
-    }
+    
+   
 ]
 
 
@@ -67,7 +61,7 @@ const SkillInfo = [
     },
     {
         title: "Backend",
-        skills: [ "Node JS", "Express JS", "MySQL", "MongoDB",  "PostgresSQL"]
+        skills: [ "Node JS", "Express JS", "MySQL", "MongoDB",  "PostgresSQL", "Flask"]
     },
     {
         title: "Languages",
@@ -83,6 +77,14 @@ const SkillInfo = [
 
 const ExperienceInfo = [
     {
+        role: "Software Developer Intern",
+        company: "Utechia Inc",
+        date: "January 2025 - Present",
+        desc: "Implemented and optimized innovative app solutions by collaborating closely with the founder team, leveraging cutting-edge technologies to streamline processes and drive innovation.",
+        skills: ["React", "JavaScript", "TypeScript", "Next.js", "Node.js", "Flask", "API Development"]
+    },
+
+    {
         role: "Research Assistant",
         company: "Simon Fraser University",
         date: "December 2024 - Present",
@@ -97,10 +99,10 @@ const ExperienceInfo = [
         skills: ["C++", "C", "Python", "Computational Mathematics"]
     },
     {
-        role: "Software Engineer",
+        role: "Full Stack Developer",
         company: "CJSF 90.1FM",
         date: "May 2024 - September 2024",
-        desc: "I spearheaded the migration of the organization's website from Drupal 7 to Drupal 8, leveraging my expertise in PHP, HTML5, CSS3, JavaScript and Drupal to ensure a seamless and efficient transition.",
+        desc: "Led the development and maintenance of a responsive website using JavaScript, React.js, Node.js, and PostgreSQL, enhancing user interaction.",
         skills: ["HTML", "CSS", "React", "JavaScript", "Drupal", "Docker", "TypeSript"]
     }
 ]
