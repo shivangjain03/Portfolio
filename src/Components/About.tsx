@@ -89,7 +89,7 @@ const About = () => {
           </span>
         </div>
         <div className="text-textColor w-[90%] text-justify mb-6 text-xl font-semibold lg-mx:text-base sm-mx:text-sm xs-mx:text-xs">
-          I am a dedicated 2nd-year Computer Science student @ Simon Fraser
+          I am a dedicated 3rd-year Computer Science student @ Simon Fraser
           University. My experience includes web development, where I design
           and implement dynamic, user-centric solutions. I am driven by a deep
           curiosity for emerging technologies and a commitment to solving
@@ -98,7 +98,7 @@ const About = () => {
         <Button
           component="a"
           target="_blank"
-          href="https://drive.google.com/file/d/120XOU6Wnu8wfeV3dftjvPTPhaUGXH8lA/view?usp=sharing"
+          href="https://drive.google.com/file/d/1a9Bbre85PVXlPGpux-qcDCl-MDvJbg5r/view?usp=sharing"
           className="!text-bgColor !w-fit"
           size={btn}
           variant="filled"
