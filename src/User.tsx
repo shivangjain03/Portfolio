@@ -92,6 +92,13 @@ const SkillInfo = [
 
 const ExperienceInfo = [
     {
+        role: "Software Developer Intern",
+        company: "Kinaxis",
+        date: "September 2025 - Present",
+        desc: "Developed custom logging utilities in C++ to improve function-level visibility, streamline debugging, and accelerate issue resolution. Contributed to the migration of the stress-testing framework to AlgoTest (NUnit), enabling more scalable, automated performance testing and strengthening overall reliability of supply-chain algorithms. Collaborated within Agile sprints to ensure smooth integration and continuous improvement.",
+        skills: ["C++", "C#", "Git", "Bitbucket", "Jenkins", "NUnit"]
+    },
+    {
         role: "Software Developer",
         company: "SFU Blueprint (Mosaic)",
         date: "April 2025 - Present",
@@ -99,9 +106,16 @@ const ExperienceInfo = [
         skills: ["React", "Next.js", "Supabase", "PostgreSQL", "CI/CD", "Agile", "GitHub Actions"]
     },
     {
+        role: "HCI Researcher",
+        company: "ixlab",
+        date: "April 2025 - September 2025",
+        desc: "Designed and developed a proof-of-concept extension, “TeachMate,” integrated with Canvas LMS to streamline workflows for instructors and TAs. Conducted user and pilot studies with teaching staff, synthesized feedback, and iteratively refined features to enhance usability, reduce AI hallucinations, and improve instructional efficiency. Established a validated foundation for scalable adoption.",
+        skills: ["Flask", "Python", "React", "JavaScript", "Git", "Docker", "Kubernetes"]
+    },
+    {
         role: "Machine Learning Intern",
         company: "Simon Fraser University",
-        date: "January 2025 - Present",
+        date: "January 2025 - September 2025",
         desc: "Designed and deployed an LLM-based static analysis system to detect async anti-patterns in Node.js projects, improving code audit efficiency by 50%. Built a benchmarking pipeline to evaluate LLM-generated patches against industry standards and ran empirical validations across 20+ JavaScript repositories, achieving 80%+ detection accuracy.",
         skills: ["LLM", "Node.js", "JavaScript", "Python", "Static Analysis"]
     },
