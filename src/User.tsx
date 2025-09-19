@@ -95,7 +95,7 @@ const ExperienceInfo = [
         role: "Software Developer Intern",
         company: "Kinaxis",
         date: "September 2025 - Present",
-        desc: "Core Algorithm, Product Team",
+        desc: "Core Algorithms, Product Team",
         skills: ["C++", "C#", "Git", "Bitbucket", "Jenkins", "NUnit"]
     },
     {
