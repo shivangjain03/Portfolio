@@ -95,7 +95,7 @@ const ExperienceInfo = [
         role: "Software Developer Intern",
         company: "Kinaxis",
         date: "September 2025 - Present",
-        desc: "Developed custom logging utilities in C++ to improve function-level visibility, streamline debugging, and accelerate issue resolution. Contributed to the migration of the stress-testing framework to AlgoTest (NUnit), enabling more scalable, automated performance testing and strengthening overall reliability of supply-chain algorithms. Collaborated within Agile sprints to ensure smooth integration and continuous improvement.",
+        desc: "Core Algorithm, Product Team",
         skills: ["C++", "C#", "Git", "Bitbucket", "Jenkins", "NUnit"]
     },
     {
